@@ -48,8 +48,8 @@ class Car
 
     public function start()
     {
-        $this->currentSpeed = 1;
-        return "The car starts !";
+        $this->currentSpeed = 0;
+        return "Start the car !";
     }
 
     public function forward(): string
